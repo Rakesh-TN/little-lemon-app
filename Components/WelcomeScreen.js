@@ -1,4 +1,4 @@
-import { StyleSheet, Text, ScrollView } from 'react-native'
+import { StyleSheet, Text, ScrollView, TextInput } from 'react-native'
 import React from 'react'
 
 const WelcomeScreen = () => {
@@ -8,6 +8,7 @@ const WelcomeScreen = () => {
             <Text style={styles.regularText}>Little Lemon is a charming neighborhood bistro that serves simple food
         and classic cocktails in a lively but casual environment. We would love
         to hear your experience with us!</Text>
+        <TextInput />
         </ScrollView>
     )
 }

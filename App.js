@@ -5,6 +5,7 @@ import LittleLemonFooter from './Components/LittleLemonFooter';
 import WelcomeScreen from './Components/WelcomeScreen';
 import MenuItemsFlatList from './Components/MenuItemsFlatList';
 import MenuItemsSectionList from './Components/MenuItemsSectionList';
+import FeedBackForm from './Components/FeedBack';
 
 export default function App() {
   return (
@@ -12,8 +13,9 @@ export default function App() {
       <View style={styles.container}>
         <LittleLemonHeader />
         {/* <WelcomeScreen /> */}
+        <FeedBackForm />
         {/* <MenuItemsFlatList /> */}
-        <MenuItemsSectionList />
+        {/* <MenuItemsSectionList /> */}
         {/* <StatusBar style="auto" /> */}
       </View>
       <View style={styles.footerContainer}>
