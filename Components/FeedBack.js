@@ -22,6 +22,10 @@ const FeedBackForm = () => {
                 value={firstName}
                 onChangeText={onChangeFirstName}
                 placeholder='First Name'
+                // onFocus={() => {Alert.alert('First name is focussed')}}
+                // onBlur={() => {Alert.alert('First name is now blurred')}} 
+                // clearButtonMode={'always'}
+                // Important concept
             />
             <TextInput
                 style={styles.input}

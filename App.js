@@ -6,12 +6,14 @@ import WelcomeScreen from './Components/WelcomeScreen';
 import MenuItemsFlatList from './Components/MenuItemsFlatList';
 import MenuItemsSectionList from './Components/MenuItemsSectionList';
 import FeedBackForm from './Components/FeedBack';
+import LoginScreen from './Components/LoginScreen';
 
 export default function App() {
   return (
     <>
       <View style={styles.container}>
         <LittleLemonHeader />
+        <LoginScreen />
         {/* <WelcomeScreen /> */}
         <FeedBackForm />
         {/* <MenuItemsFlatList /> */}
